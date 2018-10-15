@@ -10,33 +10,62 @@
   	<table class="table">
 	    <thead>
 	      <tr>
+	      	<th style="width:10%"></th>
 	        <th style="width:15%; text-align: center">Ngày</th>
 	        <th style="width:40%; text-align: center">Hoạt động</th>
 	        <th style="width:10%; text-align: center">Trạng thái</th>
-	        <th style="width:20%; text-align: center">Giảng viên</th>
-	        <th style="width:15%; text-align: center">Thao tác</th>
+	        <th style="width:25%; text-align: center">Giảng viên</th>
+	        
 	      </tr>
 	    </thead>
 
 	    <tbody>
 	     
 			<tr>
+				<td><input type="checkbox" class="check_box" id=""></td>
 		        <td ></td>
 		        <td ></td>
 		        <td ></td>
 		        <td ></td>
-		        <td id="thaotac"><button></button></td>
+		        
 		    </tr>
 	      
 	      
 	    </tbody>
   	</table>
   	
-	<style>
-		
+  	<div class="btn-group">
+  		<button type="button" class="btn btn-primary" style="width: 120px" data-toggle="modal" data-target="#myModal">Sửa lại ý tưởng</button>
+		<button type="button" class="btn btn-success" style="width: 120px">Đồng ý</button>
+		<button type="button" class="btn btn-danger" style="width: 120px">Hủy</button>
+  	</div>
 
-		
+  	<div class="modal fade" id="myModal" role="dialog">
+    	<div class="modal-dialog">
+    
+	      <!-- Modal content-->
+	      	<div class="modal-content">
+		        <div class="modal-header">
+		          	<button type="button" class="close" data-dismiss="modal">&times;</button>
+		          	<h4 class="modal-title">Sửa đổi ý tưởng</h4>
+		        </div>
 
+		        <div class="modal-body">
+		        	<h5>Tên ý tưởng mới</h5><br>
+			        <p><textarea name="" id="" cols="90" rows="10" style="padding-left: 5px; padding-top: 5px;padding-bottom: 5px; padding-right: 5px;"></textarea></p><br>
+			        <h5>Nội dung ý tưởng</h5><br>
+			        <p><textarea name="" id="" cols="90" rows="10" style="padding-left: 5px; padding-top: 5px;padding-bottom: 5px; padding-right: 5px;"></textarea></p>
+		        </div>
 
-	</style>
+		        <div class="modal-footer">
+		          	<button type="button" class="btn btn-primary" onclick="()">Thay đổi</button>
+		        </div>
+	      	</div>
+      
+    	</div>
+  	</div>
+  
+
+	
 </html>
+
