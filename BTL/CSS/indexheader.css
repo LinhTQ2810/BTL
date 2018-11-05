@@ -1,0 +1,111 @@
+/*body{
+	width: 100%;
+	height: auto;
+}*/
+
+#all{
+	width: 100%;
+	height: 100%;
+	background: white;
+	display: flex;
+	flex-direction: column;
+	padding: 0px;
+
+}
+
+.header{
+	width: 100%;
+	height:88px;
+	background: #1E90FF;
+	display: flex;
+	flex-direction: row;
+	color: white;
+	justify-content: space-between;
+	/*position: fixed; 
+	top:0;
+	left: 0;*/
+}
+
+	
+
+
+.left-header{
+	display: flex;
+	flex-direction: column;
+	font-family:"Times New Roman", Times, serif;
+	justify-content: space-around;
+	font-size: 18px; 
+	font-weight: 700;
+	margin-top: 10PX;
+	line-height: 30px;
+	font-style: normal;
+	margin-left: 20px;
+
+}
+
+.right-header{
+	display: flex;
+	flex-direction: column;
+	margin-right: 20px;
+	justify-content: space-between;
+}
+
+.user{
+	color: #1E90FF;
+	height: 35px;
+	width: auto;
+	margin-top: 10px;
+	background: white;
+	border: 0.5px solid blue;
+	border-radius: 8px ;
+}
+
+.menu{
+	background: #1E90FF;
+	border: none;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.menu ul{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	list-style-type: none;
+	padding: 0px;
+
+}
+
+.menu ul li a{
+	color: #ffffff;
+	text-decoration-line: none;
+	list-style-type: none;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: 700;
+	font-size: 15px;
+	margin-right: 15px;
+}
+
+.menu ul li a:hover{
+	color: #0000ff;
+}
+
+
+.footer{
+	width: auto;
+	height: 80px;
+	display: flex;
+	flex-direction: column;
+	line-height: 25spx;
+	background: #6495ED;
+	color: white;
+	padding-top: 10px;
+
+}
+
+.ft-txt{
+	text-align: center;
+	font-size: 16px;
+	font-weight: 400;
+}
